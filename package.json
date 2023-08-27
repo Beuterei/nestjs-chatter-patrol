@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beuluis/nestjs-chatter-patrol.git"
+    "url": "git+https://github.com/Beuterei/nestjs-chatter-patrol.git"
   },
   "keywords": [
     "nestjs",
@@ -29,9 +29,9 @@
   "author": "Luis Beu <me@luisbeu.de> (https://luisbeu.de/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/beuluis/nestjs-chatter-patrol/issues"
+    "url": "https://github.com/Beuterei/nestjs-chatter-patrol/issues"
   },
-  "homepage": "https://github.com/beuluis/nestjs-chatter-patrol#readme",
+  "homepage": "https://github.com/Beuterei/nestjs-chatter-patrol#readme",
   "lint-staged": {
     "*.{js,ts,json,yml,yaml}": [
       "eslint"

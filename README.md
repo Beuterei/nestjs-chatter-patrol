@@ -13,9 +13,9 @@
     <br />
     <br />
     ·
-    <a href="https://github.com/beuluis/nestjs-chatter-patrol/issues">Report Bug</a>
+    <a href="https://github.com/Beuterei/nestjs-chatter-patrol/issues">Report Bug</a>
     ·
-    <a href="https://github.com/beuluis/nestjs-chatter-patrol/issues">Request Feature</a>
+    <a href="https://github.com/Beuterei/nestjs-chatter-patrol/issues">Request Feature</a>
     ·
   </p>
 </p>
@@ -288,12 +288,12 @@ Luis Beu - me@luisbeu.de
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/beuluis/nestjs-chatter-patrol.svg?style=flat-square
-[contributors-url]: https://github.com/beuluis/nestjs-chatter-patrol/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/beuluis/nestjs-chatter-patrol.svg?style=flat-square
-[forks-url]: https://github.com/beuluis/nestjs-chatter-patrol/network/members
-[stars-shield]: https://img.shields.io/github/stars/beuluis/nestjs-chatter-patrol.svg?style=flat-square
-[stars-url]: https://github.com/beuluis/nestjs-chatter-patrol/stargazers
-[issues-shield]: https://img.shields.io/github/issues/beuluis/nestjs-chatter-patrol.svg?style=flat-square
-[issues-url]: https://github.com/beuluis/nestjs-chatter-patrol/issues
-[license-shield]: https://img.shields.io/github/license/beuluis/nestjs-chatter-patrol.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/Beuterei/nestjs-chatter-patrol.svg?style=flat-square
+[contributors-url]: https://github.com/Beuterei/nestjs-chatter-patrol/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Beuterei/nestjs-chatter-patrol.svg?style=flat-square
+[forks-url]: https://github.com/Beuterei/nestjs-chatter-patrol/network/members
+[stars-shield]: https://img.shields.io/github/stars/Beuterei/nestjs-chatter-patrol.svg?style=flat-square
+[stars-url]: https://github.com/Beuterei/nestjs-chatter-patrol/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Beuterei/nestjs-chatter-patrol.svg?style=flat-square
+[issues-url]: https://github.com/Beuterei/nestjs-chatter-patrol/issues
+[license-shield]: https://img.shields.io/github/license/Beuterei/nestjs-chatter-patrol.svg?style=flat-square
