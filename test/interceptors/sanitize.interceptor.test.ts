@@ -1,13 +1,13 @@
 /* eslint-disable unicorn/consistent-function-scoping */
 /* eslint-disable jest/expect-expect */
 /* eslint-disable jest/prefer-expect-assertions */
+import type { Whitelist } from '../../src';
+import { SanitizeInterceptor } from '../../src';
 import type { CallHandler, ExecutionContext, Logger } from '@nestjs/common';
 import { InternalServerErrorException } from '@nestjs/common';
 import type { HttpArgumentsHost } from '@nestjs/common/interfaces';
 import { mock } from 'jest-mock-extended';
 import { lastValueFrom, of, throwError } from 'rxjs';
-import type { Whitelist } from '../../src';
-import { SanitizeInterceptor } from '../../src';
 
 describe('SanitizeInterceptor', () => {
     const mockContext = mock<ExecutionContext>();

@@ -11,7 +11,6 @@
     "test": "jest",
     "test:cov": "jest --coverage",
     "lint": "eslint .",
-    "format": "prettier . --check",
     "prepack": "npm run build",
     "build": "tsc --project tsconfig.build.json",
     "prepare": "husky install"
@@ -33,20 +32,14 @@
     "url": "https://github.com/beuluis/nestjs-chatter-patrol/issues"
   },
   "homepage": "https://github.com/beuluis/nestjs-chatter-patrol#readme",
-  "prettier": "@beuluis/prettier-config",
   "lint-staged": {
-    "*.md": [
-      "prettier --write"
-    ],
     "*.{js,ts,json,yml,yaml}": [
-      "prettier --write",
       "eslint"
     ]
   },
   "devDependencies": {
-    "@beuluis/eslint-config": "1.2.3",
+    "@beuluis/eslint-config": "2.0.0",
     "@beuluis/hook-cli": "1.2.1",
-    "@beuluis/prettier-config": "2.0.2",
     "@nestjs/common": "9.4.1",
     "@types/jest": "29.5.1",
     "@types/node": "20.2.1",

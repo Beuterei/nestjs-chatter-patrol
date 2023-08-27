@@ -3,6 +3,7 @@ import { Injectable, InternalServerErrorException, Logger } from '@nestjs/common
 import type { FastifyRequest, HTTPMethods } from 'fastify';
 import type { Observable } from 'rxjs';
 import { map } from 'rxjs';
+import type { IOptions } from 'sanitize-html';
 import sanitizeHtml from 'sanitize-html';
 
 type LogLevel = 'error' | 'warn';
@@ -15,7 +16,7 @@ type Path = RegExp | string;
 
 type Scope = 'both' | 'request' | 'response';
 
-export interface SanitizeFieldOptions extends sanitizeHtml.IOptions {
+export interface SanitizeFieldOptions extends IOptions {
     /**
      * Defines which fields should not be sanitized
      */
@@ -158,6 +159,7 @@ export class SanitizeInterceptor implements NestInterceptor {
 
     // Determines if the value is a SanitizeFieldOptions object to configure the sanitizeHtml function
     protected isSanitizeFieldOptions(
+        this: void,
         value: RegExp | SanitizeFieldOptions | string,
     ): value is SanitizeFieldOptions {
         return typeof value === 'object' && 'fieldPath' in value;
