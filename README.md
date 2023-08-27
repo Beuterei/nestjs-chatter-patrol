@@ -267,12 +267,6 @@ Normally I would not test third party libs, but since this is such an important 
 
 The test run the interceptor against multiple payloads compiled from known XSS payloads from github. Generally there are test that are probably too much, but hey much helps much. Right? RIGHT?
 
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Follow [contributing](https://github.com/Good-Games-Munich/.github/wiki/workflows#contributing).
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
