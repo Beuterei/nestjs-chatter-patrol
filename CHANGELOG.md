@@ -1,5 +1,9 @@
 # Changelog
 
+## 2023-07-12 - 0.0.6
+
+-   Switch to bun as package manager
+
 ## 2023-07-12 - 0.0.5
 
 -   Add needed types to deps
