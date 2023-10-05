@@ -13,7 +13,7 @@ jobs:
   testing:
     permissions:
       pull-requests: write
-    uses: Beuterei/reusable-workflows/.github/workflows/node-qa-testing.yml@main
+    uses: Beuterei/reusable-workflows/.github/workflows/bun-node-qa-testing.yml@main
     secrets: inherit
 
   publish-feature-tag:
@@ -23,4 +23,5 @@ jobs:
     uses: Beuterei/reusable-workflows/.github/workflows/github-npm-publish.yml@main
     with:
       dist_tag: ${{ github.head_ref }}
+      package_manager: bun
     secrets: inherit
