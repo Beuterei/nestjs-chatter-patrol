@@ -7,7 +7,7 @@ on:
 
 jobs:
   testing:
-    uses: Beuterei/reusable-workflows/.github/workflows/node-qa-testing.yml@main
+    uses: Beuterei/reusable-workflows/.github/workflows/bun-node-qa-testing.yml@main
     with:
       skip_coverage_report: true
     secrets: inherit
@@ -15,4 +15,6 @@ jobs:
   publish-npm:
     needs: testing
     uses: Beuterei/reusable-workflows/.github/workflows/npm-publish.yml@main
+    with:
+      package_manager: bun
     secrets: inherit
